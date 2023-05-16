@@ -80,7 +80,7 @@ export default function MessageForm() {
         </form>
         <Box fontSize="10px" mt="1">
           Warning: do not share any sensitive information, it's a public chat
-          room 🙂
+          room for special greetings and song request🙂
         </Box>
       </Container>
     </Box>
