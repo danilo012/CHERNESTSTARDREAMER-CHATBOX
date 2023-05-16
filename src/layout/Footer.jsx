@@ -19,7 +19,7 @@ export default function Footer() {
           {/* Built by{" "} */}
           {/* <a href="http://shimon-wosner.vercel.app" target="_blank"> */}
           <a
-            href="https://exquisite-daffodil-d5cdad.netlify.app/"
+            href="https://twitter.com/DreamStarRadio"
             target="_blank"
             rel="noreferrer"
           >
@@ -33,7 +33,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <FaGithub style={{ display: "inline" }} /> Source code
+            <FaGithub style={{ display: "inline" }} /> ONLINE RADIO
           </a>
         </GridItem>
       </Grid>
