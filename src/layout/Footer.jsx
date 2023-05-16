@@ -29,7 +29,7 @@ export default function Footer() {
         </GridItem>
         <GridItem justifySelf="end">
           <a
-            href="https://github.com/shwosner/realtime-chat-supabase-react"
+            href="https://exquisite-daffodil-d5cdad.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
