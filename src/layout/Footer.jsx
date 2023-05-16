@@ -24,7 +24,7 @@ export default function Footer() {
             rel="noreferrer"
           >
             <FaTwitter style={{ display: "inline" }} />
-            @Chernestardreamer
+            @Cherneststardreamer
           </a>
         </GridItem>
         <GridItem justifySelf="end">
