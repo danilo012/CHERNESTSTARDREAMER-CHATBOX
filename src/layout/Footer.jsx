@@ -19,12 +19,12 @@ export default function Footer() {
           {/* Built by{" "} */}
           {/* <a href="http://shimon-wosner.vercel.app" target="_blank"> */}
           <a
-            href="https://twitter.com/shwosner"
+            href="https://exquisite-daffodil-d5cdad.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
             <FaTwitter style={{ display: "inline" }} />
-            @shwosner
+            @Chernestardreamer
           </a>
         </GridItem>
         <GridItem justifySelf="end">
