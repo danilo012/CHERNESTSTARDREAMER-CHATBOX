@@ -33,7 +33,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <FaGithub style={{ display: "inline" }} /> ONLINE RADIO
+            <FaGithub style={{ display: "inline" }} /> ONLINE
           </a>
         </GridItem>
       </Grid>
