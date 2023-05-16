@@ -24,15 +24,42 @@ export default function Header() {
           <GridItem justifySelf="end" alignSelf="center" mr="4">
             Welcome to Cherneststardreamer chatbox <strong>{username}</strong>
           </GridItem>
-    
+          <Button
+            marginRight="4"
+            size="sm"
+            variant="link"
+            onClick={() => {
+              const { error } = auth.signOut();
+              if (error) return console.error("error signOut", error);
+              const username = randomUsername();
+              setUsername(username);
+              localStorage.setItem("username", username);
+            }}
+          >
+            Log out
+          </Button>
         </>
-)}
-
+      ) : (
+        <>
+          <GridItem justifySelf="end" alignSelf="end">
+            <NameForm username={username} setUsername={setUsername} />
+          </GridItem>
+          <Button
+            size="sm"
+            marginRight="2"
+            colorScheme="teal"
+            rightIcon={<FaGithub />}
+            variant="outline"
+            onClick={() =>
+              auth.signIn({
+                provider: "github",
+              })
+            }
+          >
+            Login
+          </Button>
+        </>
+      )}
     </Grid>
-
   );
-
 }
-
-
- 
