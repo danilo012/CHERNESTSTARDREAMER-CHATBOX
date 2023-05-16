@@ -22,7 +22,7 @@ export default function Header() {
       {auth.user() ? (
         <>
           <GridItem justifySelf="end" alignSelf="center" mr="4">
-            Welcome <strong>{username}</strong>
+            Welcome to Cherneststardreamer chatbox <strong>{username}</strong>
           </GridItem>
           <Button
             marginRight="4"
