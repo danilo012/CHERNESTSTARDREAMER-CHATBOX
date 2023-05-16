@@ -24,20 +24,7 @@ export default function Header() {
           <GridItem justifySelf="end" alignSelf="center" mr="4">
             Welcome to Cherneststardreamer chatbox <strong>{username}</strong>
           </GridItem>
-          <Button
-            marginRight="4"
-            size="sm"
-            variant="link"
-            onClick={() => {
-              const { error } = auth.signOut();
-              if (error) return console.error("error signOut", error);
-              const username = randomUsername();
-              setUsername(username);
-              localStorage.setItem("username", username);
-            }}
-          >
-            Log out
-          </Button>
+    
         </>
 )}
 
