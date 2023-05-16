@@ -39,27 +39,13 @@ export default function Header() {
             Log out
           </Button>
         </>
-      ) : (
-        <>
-          <GridItem justifySelf="end" alignSelf="end">
-            <NameForm username={username} setUsername={setUsername} />
-          </GridItem>
-          <Button
-            size="sm"
-            marginRight="2"
-            colorScheme="teal"
-            rightIcon={<FaGithub />}
-            variant="outline"
-            onClick={() =>
-              auth.signIn({
-                provider: "github",
-              })
-            }
-          >
-            Login
-          </Button>
-        </>
-      )}
+)}
+
     </Grid>
+
   );
+
 }
+
+
+ 
