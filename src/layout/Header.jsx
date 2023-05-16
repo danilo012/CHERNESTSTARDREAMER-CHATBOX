@@ -10,7 +10,7 @@ export default function Header() {
       templateColumns="max-content 1fr min-content"
       justifyItems="center"
       alignItems="center"
-      bg="white"
+      bg="blue"
       position="sticky"
       top="0"
       zIndex="10"
